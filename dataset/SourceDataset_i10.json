@@ -1,0 +1,16 @@
+{
+	"name": "SourceDataset_i10",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "fuelwatch",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Xml",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		}
+	}
+}
