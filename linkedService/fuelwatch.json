@@ -1,0 +1,22 @@
+{
+	"name": "fuelwatch",
+	"properties": {
+		"description": "fuelwatch",
+		"annotations": [],
+		"type": "HttpServer",
+		"typeProperties": {
+			"url": "https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS",
+			"enableServerCertificateValidation": false,
+			"authenticationType": "Basic",
+			"userName": "mainuser",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "dataLakeStorageAccountKey",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "dataLakeStorageAccountKey"
+			}
+		}
+	}
+}
