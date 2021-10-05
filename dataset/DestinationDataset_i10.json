@@ -6,11 +6,11 @@
 			"type": "LinkedServiceReference"
 		},
 		"annotations": [],
-		"type": "DelimitedText",
+		"type": "parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "fuelwatch",
+				"fileName": "feed",
 				"fileSystem": "datalakestore"
 			},
 			"columnDelimiter": ",",
