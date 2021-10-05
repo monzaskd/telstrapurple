@@ -16,7 +16,7 @@
 				"userProperties": [
 					{
 						"name": "Destination",
-						"value": "datalakestore//fuelwatch"
+						"value": "datalakestore/Raw/fuelwatch"
 					}
 				],
 				"typeProperties": {
