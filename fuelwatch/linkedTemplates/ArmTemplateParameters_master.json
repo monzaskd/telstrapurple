@@ -1,0 +1,33 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "fuelwatch"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"fuelwatch_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://datalakestored.dfs.core.windows.net"
+		},
+		"dataLakeStorageAccountKey_properties_typeProperties_baseUrl": {
+			"value": "https://TelstraPurpleKey.vault.azure.net/"
+		},
+		"fuelwatch_properties_typeProperties_url": {
+			"value": "https://www.fuelwatch.wa.gov.au/fuelwatch/fuelWatchRSS"
+		},
+		"fuelwatch_properties_typeProperties_userName": {
+			"value": "mainuser"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
